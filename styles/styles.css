@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font:normal 1em 'Lato', sans-serif;
+    background-color: #108b50;
+}
+.page-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hidden{
+    position: absolute;
+    left: -10000px;
+    width:1px;
+    height: 1px;
+}
+
+/*General a style*/
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #76f1b6;
+    text-decoration: none;
+}
+
+
+/*Header*/
+#header{
+    background-color: #108b50;
+}
+#header .page-wrapper{
+    padding: 53px 60px 120px 48px;
+}
+h2#site_logo{
+    margin: 0 0 0 0;
+}
+
+nav#main_menu{
+    padding-bottom: 0px;
+}
+
+ul.menu{
+    margin: 0 0 0 0;
+    padding: 14px 0px 0px 0px;
+    float: right;
+}
+
+
+ul.menu a{
+/*    font-weight: 00;*/
+    font-size: 1.875em;
+    
+}
+
+ul.menu li{
+    display: inline-block;
+    padding-left: 61px;
+}
+ul.menu li:last-child{
+    margin-right: 0px;
+}
+ul.menu li:first-child{
+    padding-left: 0px;
+}
+
+
+#site_logo{
+    display: inline-block;
+    float: left;
+    width: 28%;
+/*    border: 1px solid #fff;*/
+}
+
+#main_menu{
+    display: inline-block;
+    float: right;
+    width: 68%;
+/*    border: 1px solid #fff;*/
+}
+
+/*Banner*/
+div#banner_image{
+    /*    height: auto;*/
+    padding: 0px 20px 0px 23px;
+    margin: 0px 0px 0px 0px;
+}
+#welcome_banner{
+    position: relative;
+/*    margin-top: 100px;*/
+}
+#banner_content{
+    position: absolute;
+    color: #fff;
+}
+
+.banner-title span{
+    font-size: 2.25em;
+    padding-left: 118px;
+    text-shadow: 0 10px 20px rgba(0,0,0,1);
+    
+}
+
+div#banner_content{
+    margin-top: 95px;
+}
+
+.button.solid{
+    font-weight: bold;
+    font-size:1.87em;
+    border-radius: 10px;
+    background-color: #2ea36b;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 118px;
+    margin-top:13px;
+    padding: 20px 65px 17px 70px;
+}
+.button.solid:hover{
+    color: #143927;
+}
+
+
+
+.h_line {
+    width:1160px;
+    height:1px;
+    background: #fff;
+    margin-top: 74px;
+    margin-left: 20px;
+}
+
+.copyright{
+    width: auto;
+    font-size: 0.875em;
+    color: #fff;
+    margin-top: 14px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0px 0px 0px 445px;
+}
+h1 span{
+    display: block;
+}
+
